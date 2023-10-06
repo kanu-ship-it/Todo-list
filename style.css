@@ -1,0 +1,83 @@
+
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border: 2px solid rgba(4, 0, 0, 0.905);
+    width: 50rem;
+    margin: auto;
+}
+.container{
+    margin: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.todoList{
+ background-color: brown;
+ padding: 30px 0px 20rem;
+ text-indent: 10px;
+ letter-spacing: 0px;
+
+}
+.input_text{
+    padding: 10px;
+    font-size: 28px;
+
+}
+.submit{
+    padding: 10px;
+    font-size:28px ;
+
+}
+
+/* .list{
+    background-color: paleturquoise;
+    
+} */
+.list ul{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 31px;
+    text-align: center;
+    /* border:2px solid black; */
+    
+}
+
+.list li{
+   
+}
+
+
+.list ul span {
+    display: flex;
+    justify-content: space-between;
+    border:2px solid purple;
+    margin: 10px;
+    padding-top: 1px;
+    padding-right: 30rem;
+    background-color: rgb(131, 115, 216);
+}
+.list ul span button{
+   
+   
+   
+
+}
+.list span{
+    padding-right:17rem;
+}
+
+/* .list ul li{
+ display : flex;
+ justify-content: space-between;
+}
+.addTasks {
+    padding: 50px;
+    display: flex;
+}
+ */
